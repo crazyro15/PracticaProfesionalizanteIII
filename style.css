@@ -38,6 +38,13 @@ a{
     cursor: pointer;
 }
 
+.btnSesion{
+    display: flex;
+    justify-content: end;
+    margin-left: 100vh;
+    margin-top: 2vh;
+}
+
 /*Pestañas
 
 /* funcionamiento básico del sistema de pestañas */
