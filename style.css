@@ -173,6 +173,15 @@ a{
     justify-content: center;
   }
 
+  table{
+    background-color: white;
+    margin: 2vh;
+  }
+
+  .tableOculto{
+    display: none;
+  }
+
 
 
 

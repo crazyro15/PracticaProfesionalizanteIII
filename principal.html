@@ -36,10 +36,42 @@
         <div class="tabs">
             <div class="tab-container">
                 <div id="tab3" class="tab">
-                    <a href="#tab3">Pestaña 3</a>
+                    <a href="#tab3">Catastro</a>
                     <div class="tab-content">
-                        <h2>Titulo 3</h2>
-                        <p>Lorem ipsum ...</p>
+                        <h2 style="text-align: center;">Planos</h2>
+                        <div class="d-flex align-items-center">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="text" placeholder="Ingrese datos">
+                                <button class="btn btn-primary ver" type="button">Buscar</button>
+                            </form>
+                            <table class="table tableOculto">
+                                <thead class="table-success">
+                                  <tr>
+                                    <th>Partida</th>
+                                    <th>Título</th>
+                                    <th>Descripción</th>
+                                    <th>Archivo</th>
+                                    <th></th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>5066800</td>
+                                    <td>Cedula 50568</td>
+                                    <td>Cedula Digitalizada de la partida 50568</td>
+                                    <td>50568 (2).pdf</td>
+                                    <td><a class="btn btn-primary" href="./vistaPlano.html" type="button">Descargar</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>5066800</td>
+                                    <td>Cedula 50568</td>
+                                    <td>Cedula Digitalizada de la partida 50568</td>
+                                    <td>50568 (1).pdf</td>
+                                    <td><a class="btn btn-primary" href="./vistaPlano.html" type="button">Descargar</a></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </div>
                     </div>
                 </div>
                 <div id="tab2" class="tab">
@@ -76,8 +108,8 @@
                             </div>
                             <div class="d-flex align-items-center">
                                 <form class="d-flex flex-column">
-                                    <input class="form-control mb-2" type="text" placeholder="Search">
-                                    <button class="btn btn-primary" type="button">Search</button>
+                                    <input class="form-control mb-2" type="text" placeholder="Ingrese expediente">
+                                    <button class="btn btn-primary" type="button">Buscar</button>
                                 </form>
                             </div>
                         </div>
@@ -114,5 +146,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
